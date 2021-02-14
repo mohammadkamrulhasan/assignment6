@@ -141,7 +141,7 @@ const toggleLoader = () => {
 //  Error Message 
 const displayError = error => {
   const errorTag = document.getElementById('error-message');
-  if (sliders = 0) {
+  if (sliders = -1) {
     errorTag.innerText = error;
   } else {
     errorTag.classList.toggle('d-none');
