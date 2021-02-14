@@ -134,9 +134,9 @@ sliderBtn.addEventListener('click', function () {
 // Spinner Loading 
 const toggleLoader = () => {
   const loader = document.getElementById('loading-spinner');
-  const errorMsg = document.getElementById('error-message');
+  // const errorMsg = document.getElementById('error-message');
   loader.classList.toggle('d-none');
-  errorMsg.classList.toggle('d-none');
+  // errorMsg.classList.toggle('d-none');
 }
 //  Error Message 
 const displayError = error => {
